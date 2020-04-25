@@ -1,0 +1,179 @@
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    color: #ccc;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4em;
+    background: #f2ece8 url("../symbols/gradient-1000.png") repeat-x top;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background: #111;
+
+}
+
+a:link {
+    cursor: pointer;
+    color: #ff5555;
+}
+
+/* visited link */
+a:visited {
+  color: #ff5555;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff5555;
+}
+
+a {
+    color: #ff5555;
+}
+
+/* selected link */
+a:active {
+  color: #ff5555;
+}
+
+#container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0 10px 10px transparent;
+    -moz-box-shadow: 0 10px 10px transparent;
+    box-shadow: 0 10px 10px transparent;
+    padding: 0 3em 1em 3em;
+    margin-bottom: 0;
+    background: #FAF8F6;
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(37%,#ffffff), color-stop(100%,#f2ece8));
+    background: #111;
+    background: -o-radial-gradient(center, ellipse cover, #ffffff 37%,#f2ece8 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #ffffff 37%,#f2ece8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2ece8',GradientType=1 );
+}
+
+.notice, #mission {
+    background-color: #222;
+    border: 1px solid #222;
+    padding: 2em;
+    margin: 2em 0;
+    -webkit-box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+    -moz-box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+    box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.2em;
+    color: #ccc;
+    font-weight: 300;
+}
+
+#footer h4 {
+    font-size: 1.3em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    color: #ccc;
+}
+
+#site-title a {
+    color: #ccc;
+}
+
+.navbar .nav > li > a {
+    color: #ccc;
+    text-shadow: 0 1px 0 transparent;
+}
+
+a hover {
+    color:#ccc;
+}
+
+.search_results, #style_guide {
+    background-color: #111;
+    border: 1px solid #111;
+    padding: 1em;
+    margin: 0;
+    -webkit-box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+    -moz-box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+    box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+}
+
+#article {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #111;
+    border: 1px solid #111;
+    padding: 2em;
+    margin: 3em 0 1em 0;
+        margin-left: 0px;
+    -webkit-box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+    -moz-box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+    box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: auto;
+}
+
+#article-content h1 a, #article-content h2 a, #article-content h3 a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+#article-sidebar .navbar .nav {
+    border: 1px solid #111;
+    padding: 0.5em 0;
+    background: #111;
+    margin-top: 0;
+    -webkit-box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+    -moz-box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+    box-shadow: 0px 1px 5px #111;
+}
+
+#article-banner-content {
+    background-color: #222;
+    border: 1px solid #222;
+    padding: 2em;
+    margin: 1em 0 0;
+    text-align: center;
+    -webkit-box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+    -moz-box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+    box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+}
+
+#article-sidebar .navbar .nav > li > a {
+    display: block;
+    background: #111;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0.5em 1em;
+    text-transform: none;
+    -webkit-transition: background 0.3s ease;
+    -moz-transition: background 0.3s ease;
+    -o-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+}
+
+#search input[type="search"] {
+    padding-right: 40px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 2em;
+    border-color: #111;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    color:#000;
+    box-shadow: none;
+    font-family: "source sans pro", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
